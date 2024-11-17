@@ -1,0 +1,23 @@
+* {
+	background: #EFE5E5;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("/public/unbounded-main/WOFF/Unbounded-Regular.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: "Stolzl";
+ 	font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("/public/Stolzl/stolzl_regular.woff") format('woff2');
+}

@@ -1,0 +1,13 @@
+
+.button {
+	border: 1px black solid;
+	border-radius: 100vw;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	font-family: "Stolzl";
+	font-size: 7vw;
+	&:active {
+		background: #e9e9e9;
+	}
+}

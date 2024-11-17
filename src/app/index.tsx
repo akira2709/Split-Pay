@@ -6,5 +6,5 @@ import "./global.css"
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <Providers router={router} client={queryClient}/>
+	<Providers router={router} client={queryClient} />
 )

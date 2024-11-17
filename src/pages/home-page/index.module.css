@@ -1,0 +1,59 @@
+
+
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+.homePage {
+	width: 100vw;
+	display: grid;
+	min-height: 100vh;
+	padding: 5vw;
+}
+@media (width <= 500px) {
+	.star1 {
+		position: fixed;
+		left: -50vw;
+		top: -50vw;
+		width: 110vw;
+		aspect-ratio: 1;
+		z-index: 10;
+		background: transparent;
+	}
+	.star2 {
+		position: fixed;
+		top: 50vw;
+		right: -25vw;
+		width: 100vw;
+		aspect-ratio: 1;
+		background: transparent;
+	}
+	.title {
+		position: fixed;
+		user-select: none;
+		z-index: 30;
+		color: black;
+		font-family: "Unbounded", sans-serif;
+		background: transparent;
+		font-size: 30vw;
+	}
+	.beginBtnBox {
+		position: fixed;
+		background: transparent;
+		justify-self: center;
+		width: 35vw;
+		aspect-ratio: 3;
+		bottom: 10vw;
+	}
+	.content {
+		font-family: "Stolzl";
+		background: transparent;
+		position: fixed;
+		z-index: 30;
+		top: 100vw;
+		left: 30vw;
+		font-size: 7vw;
+		width: 66vw;
+	}
+}
