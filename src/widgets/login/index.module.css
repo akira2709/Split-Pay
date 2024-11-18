@@ -39,3 +39,6 @@
 	flex: 1;
 	gap: 1%;
 }
+.close {
+	display: none;
+}

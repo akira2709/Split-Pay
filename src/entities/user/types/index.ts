@@ -1,4 +1,5 @@
 export type User = {
 	userId: number
-	events: number[]
+	username: string
+	events?: number[]
 }
