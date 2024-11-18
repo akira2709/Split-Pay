@@ -1,5 +1,5 @@
 import styles from "./index.module.css"
-import { BeginButton } from "@/widgets/begin-button"
+import { BeginButton } from "@/features/begin-button"
 
 export const HomePage = () => {
 	return (

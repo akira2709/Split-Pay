@@ -1,16 +1,17 @@
 import { Button } from "@/shared/ui/button"
-import { useRoute } from "@/features/nav-hook"
+import { useNavigate } from "react-router-dom"
+
+
 
 
 export const BeginButton = () => {
-	const [loginPage, redirect] = useRoute()
+	const navigate = useNavigate()
 
 	const handleClick = () => {
-		redirect('/main/profile/1')
+		navigate('/main')
 	}
 	return (
 		<>
-			{ loginPage }
 			<Button onClick={() => handleClick()}>Начать</Button>
 		</>
 	)
