@@ -1,0 +1,11 @@
+
+.linkIn {
+	position: fixed;
+	background: transparent;
+	width: 12vw;
+	aspect-ratio: 1;
+	z-index: 20;
+	top: 17px;
+	right: 17px;
+	cursor: pointer;
+}

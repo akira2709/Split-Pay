@@ -1,9 +1,25 @@
+:root {
+	--light: #EFE5E5;
+	--dark: #131315;
+	--text-color: var(--dark);
+	--bg-color: var(--bg-light);
+	--grey-300: #323237;
+	--grey-200: #4D4D51:
+}
+[data-theme="light"] {
+	--bg-color: var(--light);
+	--text-color: var(--dark);
+}
+[data-theme="dark"] {
+	--bg-color: var(--dark);
+	--text-color: #fff;
+}
 * {
-	background: #EFE5E5;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	color: #131315;
+	color: var(--text-color);
+	background: var(--bg-color);
 }
 
 /* cyrillic-ext */

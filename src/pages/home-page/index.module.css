@@ -1,4 +1,17 @@
+:root {
+	--star1: url("star1.svg");
+	--star2: url("star2.svg");
+}
 
+[data-theme="light"] {
+	--star1: url("star1.svg");
+	--star2: url("star2.svg");
+}
+
+[data-theme="dark"] {
+	--star1: url("star1-dark.svg");
+	--star2: url("star2-dark.svg");
+}
 
 body {
 	width: 100vw;
@@ -20,6 +33,9 @@ body {
 		aspect-ratio: 1;
 		z-index: 10;
 		background: transparent;
+		background-image: var(--star1);
+		background-position: center;
+		background-size: cover;
 	}
 	.star2 {
 		position: fixed;
@@ -28,12 +44,14 @@ body {
 		width: 100vw;
 		aspect-ratio: 1;
 		background: transparent;
+		background-image: var(--star2);
+		background-position: center;
+		background-size: cover;
 	}
 	.title {
 		position: fixed;
 		user-select: none;
 		z-index: 30;
-		color: black;
 		font-family: "Unbounded", sans-serif;
 		background: transparent;
 		font-size: 30vw;
@@ -44,7 +62,7 @@ body {
 		justify-self: center;
 		width: 35vw;
 		aspect-ratio: 3;
-		bottom: 10vw;
+		bottom: 5vw;
 	}
 	.content {
 		font-family: "Stolzl";

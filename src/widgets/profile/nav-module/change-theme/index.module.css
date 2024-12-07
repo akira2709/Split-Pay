@@ -1,0 +1,32 @@
+:root {
+	--change-bg: #fff;
+	--mode-icon: url("dark-mode-icon.svg");
+}
+[data-theme="light"] {
+	--change-bg: var(--dark);
+	--mode-icon: url("dark-mode-icon.svg");
+}
+[data-theme="dark"] {
+	--change-bg: #fff;
+	--mode-icon: url("light-mode-icon.svg");
+}
+
+.changeTheme {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	aspect-ratio: 1;
+	border: none;
+	border-radius: 100%;
+	cursor: pointer;
+	background: var(--change-bg);
+}
+.icon {
+	width: 18px;
+	aspect-ratio: 1;
+	background: transparent;
+	background-image: var(--mode-icon);
+	background-position: center;
+	background-size: cover;
+}

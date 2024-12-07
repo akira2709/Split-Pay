@@ -12,6 +12,7 @@
   "dependencies": {
     "@tanstack/react-query": "^5.59.20",
     "axios": "^1.7.7",
+    "clsx": "^2.1.1",
     "compose-function": "^3.0.3",
     "gapi-script": "^1.2.0",
     "motion": "^11.11.14",

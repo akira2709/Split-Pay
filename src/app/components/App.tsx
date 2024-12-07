@@ -3,18 +3,21 @@ import { Providers } from "@/app/providers"
 import { ToastContainer } from "react-toastify"
 import { queryClient } from "@/shared/api/query-client"
 import "../global.css"
-import { Login } from "@/widgets/login"
+import { useEffect } from "react"
 
 
 
 
 
 export const App = () => {
-
+	useEffect(() => {
+		const theme = localStorage.getItem("theme") ?? "light"
+		document.documentElement.setAttribute("data-theme", theme)
+	})
 	return (
-		<Providers router={router} client={queryClient}>
+		<>
 			<ToastContainer />
-			<Login />
-		</Providers>
+			<Providers router={router} client={queryClient} />
+		</>
 	)
 }

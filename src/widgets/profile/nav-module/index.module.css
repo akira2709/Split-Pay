@@ -1,0 +1,10 @@
+.navModule {
+	position: absolute;
+	top: 0;
+	display: flex;
+	gap: 1vw;
+	right: 1vw;
+	width: 40vw;
+	height: 40px;
+	margin-top: 15.5px;
+}
