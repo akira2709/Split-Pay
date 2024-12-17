@@ -7,9 +7,9 @@ import { Logout } from "./logout"
 export const NavModule = () => {
 	return (
 		<div className={styles.navModule}>
-			<LinkFromProfile />
-			<ChangeTheme />
 			<Logout />
+			<ChangeTheme />
+			<LinkFromProfile />
 		</div>
 	)
 }

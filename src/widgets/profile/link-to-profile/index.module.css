@@ -8,4 +8,6 @@
 	top: 17px;
 	right: 17px;
 	cursor: pointer;
+	border: none;
+	border-radius: 100%;
 }

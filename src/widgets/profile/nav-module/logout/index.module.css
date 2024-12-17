@@ -1,0 +1,28 @@
+
+[data-theme="light"] {
+	--logout-bg: #fff;
+	--logout-icon: url("logout-icon-black.svg");
+}
+[data-theme="dark"] {
+	--logout-bg: #2C2C2E;
+	--logout-icon: url("logout-icon-white.svg");
+}
+.logout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	aspect-ratio: 1;
+	border: none;
+	border-radius: 100%;
+	cursor: pointer;
+	background: var(--logout-bg);
+}
+.icon {
+	width: 11px;
+	height: 15px;
+	background: transparent;
+	background-image: var(--logout-icon);
+	background-position: center;
+	background-size: cover;
+}

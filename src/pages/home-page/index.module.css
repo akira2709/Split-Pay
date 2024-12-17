@@ -1,8 +1,3 @@
-:root {
-	--star1: url("star1.svg");
-	--star2: url("star2.svg");
-}
-
 [data-theme="light"] {
 	--star1: url("star1.svg");
 	--star2: url("star2.svg");

@@ -8,9 +8,9 @@ export const ChangeTheme = () => {
 		localStorage.setItem("theme", newTheme)
 	}
 	return (
-		<div className={styles.changeTheme}
+		<button className={styles.changeTheme}
 			onClick={changeTheme}>
 			<div className={styles.icon}></div>
-		</div>
+		</button>
 	)
 }

@@ -3,5 +3,8 @@ import styles from "./index.module.css"
 
 export const LinkToProfile = () => {
 	const navigate = useNavigate()
-	return <img src={"/google-icon.svg"} className={styles.linkIn} onClick={() => navigate("/profile")}/>
+	const linkIcon = "avatar.jpg"
+	return (
+		<img src={linkIcon} className={styles.linkIn} onClick={() => navigate("/profile")}/>
+	)
 }
