@@ -1,11 +1,19 @@
 
 [data-theme="light"] {
-	--link-bg: #fff;
-	--link-icon: url("cross-black.svg");
+	.linkBack {
+		background: #fff;
+	}
+	.icon {
+		background-image: url("cross-black.svg");
+	}
 }
 [data-theme="dark"] {
-	--link-bg: #2C2C2E;
-	--link-icon: url("cross-white.svg");
+	.linkBack {
+		background: #2C2C2E;
+	}
+	.icon {
+		background-image: url("cross-white.svg");
+	}
 }
 .linkBack {
 	display: flex;
@@ -16,13 +24,11 @@
 	border: none;
 	border-radius: 100%;
 	cursor: pointer;
-	background: var(--link-bg);
 }
 .icon {
 	width: 15px;
 	aspect-ratio: 1;
 	background: transparent;
-	background-image: var(--link-icon);
 	background-position: center;
 	background-size: cover;
 }

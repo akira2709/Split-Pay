@@ -1,6 +1,6 @@
 .username {
 	display: flex;
-	font-family: "Stolzl";
+	font-family: var(--stolzl);
 	font-size: 20px;
 	flex-wrap: wrap;
 	max-width: 80vw;

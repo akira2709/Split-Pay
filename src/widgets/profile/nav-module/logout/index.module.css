@@ -1,11 +1,19 @@
 
 [data-theme="light"] {
-	--logout-bg: #fff;
-	--logout-icon: url("logout-icon-black.svg");
+	.logout {
+		background: #fff;
+	}
+	.icon {
+		background-image: url("logout-icon-black.svg");
+	}
 }
 [data-theme="dark"] {
-	--logout-bg: #2C2C2E;
-	--logout-icon: url("logout-icon-white.svg");
+	.logout {
+		background: #2C2C2E;
+	}
+	.icon {
+		background-image: url("logout-icon-white.svg");
+	}
 }
 .logout {
 	display: flex;
@@ -16,13 +24,11 @@
 	border: none;
 	border-radius: 100%;
 	cursor: pointer;
-	background: var(--logout-bg);
 }
 .icon {
 	width: 11px;
 	height: 15px;
 	background: transparent;
-	background-image: var(--logout-icon);
 	background-position: center;
 	background-size: cover;
 }

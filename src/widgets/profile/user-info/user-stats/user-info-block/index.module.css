@@ -1,9 +1,13 @@
 
 [data-theme="light"] {
-	--user-info-block-bg: #fff;
+	.userInfoBlock {
+		background: #fff;
+	}
 }
 [data-theme="dark"] {
-	--user-info-block-bg: var(--grey-300);
+	.userInfoBlock {
+		background: var(--grey-300);
+	}
 }
 
 .userInfoBlock {
@@ -12,7 +16,6 @@
 	user-select: none;
 	width: 100%;
 	min-height: 65px;
-	background: var(--user-info-block-bg);
 	border: none;
 	border-radius: 20px;
 	padding: 10px;
@@ -22,17 +25,17 @@
 	background: transparent;
 	font-size: 14px;
 	color: var(--text-slate);
-	font-family: "Stolzl";
+	font-family: var(--stolzl);
 }
 .content {
 	background: transparent;
 	color: var(--text-color);
-	font-family: "Stolzl";
+	font-family: var(--stolzl);
 }
 .currency {
 	&::after {
 		content: ' ₽';
-		font-family: "Unbounded";
+		font-family: var(--unbounded);
 		font-size: 14px;
 	}
 }
