@@ -5,6 +5,8 @@
 	--grey-200: #4D4D51;
 	--grey-linear: linear-gradient(#C4C4C4, #5E5E5E);
 	--text-slate: #ADADAD;
+	--stolzl: "Stolzl";
+	--unbounded: "Unbounded";
 }
 [data-theme="light"] {
 	--bg-color: var(--light);
@@ -25,7 +27,7 @@
 
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Unbounded';
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 200 900;
   font-display: swap;

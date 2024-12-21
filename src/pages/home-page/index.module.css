@@ -1,11 +1,19 @@
 [data-theme="light"] {
-	--star1: url("star1.svg");
-	--star2: url("star2.svg");
+	.star1 {
+		background-image: url("star1.svg");
+	}
+	.star2 {
+		background-image: url("star2.svg");
+	}
 }
 
 [data-theme="dark"] {
-	--star1: url("star1-dark.svg");
-	--star2: url("star2-dark.svg");
+	.star1 {
+		background-image: url("star1-dark.svg");
+	}
+	.star2 {
+		background-image: url("star2-dark.svg");
+	}
 }
 
 body {
@@ -28,7 +36,6 @@ body {
 		aspect-ratio: 1;
 		z-index: 10;
 		background: transparent;
-		background-image: var(--star1);
 		background-position: center;
 		background-size: cover;
 	}
@@ -39,7 +46,6 @@ body {
 		width: 100vw;
 		aspect-ratio: 1;
 		background: transparent;
-		background-image: var(--star2);
 		background-position: center;
 		background-size: cover;
 	}
@@ -47,7 +53,7 @@ body {
 		position: fixed;
 		user-select: none;
 		z-index: 30;
-		font-family: "Unbounded", sans-serif;
+		font-family: var(--unbounded), sans-serif;
 		background: transparent;
 		font-size: 30vw;
 	}
@@ -60,7 +66,7 @@ body {
 		bottom: 5vw;
 	}
 	.content {
-		font-family: "Stolzl";
+		font-family: var(--stolzl);
 		background: transparent;
 		position: fixed;
 		z-index: 30;

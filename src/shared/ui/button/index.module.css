@@ -1,19 +1,22 @@
 [data-theme="light"] {
-	--btn-bg: var(--light);
-	--border-color: var(--dark);
+	.button {
+		border-color: var(--dark);
+		background: var(--light);
+	}
 }
 [data-theme="dark"] {
-	--btn-bg: var(--grey-300);
-	--border-color: #fff;
+	.button {
+		border-color: #fff;
+		background: var(--grey-300);
+	}
 }
 
 .button {
-	border: 1.5px var(--border-color) solid;
+	border: 1.5px solid;
 	border-radius: 100vw;
 	width: 100%;
 	height: 100%;
-	background: var(--btn-bg);
-	font-family: "Stolzl";
+	font-family: var(--stolzl);
 	font-size: 7vw;
 	cursor: pointer;
 	&:active {

@@ -1,11 +1,13 @@
 [data-theme="light"] {
-	--star1: url("star1.svg");
-	--star2: url("star2.svg");
+	.star1 {
+		background-image: url("star1.svg");
+	}
 }
 
 [data-theme="dark"] {
-	--star1: url("star1-dark.svg");
-	--star2: url("star2-dark.svg");
+	.star1 {
+		background-image: url("star1-dark.svg");
+	}
 }
 
 @media (width <= 500px) {
@@ -17,7 +19,6 @@
 		aspect-ratio: 1;
 		z-index: 10;
 		background: transparent;
-		background-image: var(--star1);
 		background-position: center;
 		background-size: cover;
 	}
@@ -25,7 +26,7 @@
 		position: fixed;
 		z-index: 20;
 		background: transparent;
-		font-family: "Unbounded";
+		font-family: var(--unbounded);
 		width: 10vw;
 		top: 8px;
 		left: 5vw;
