@@ -5,15 +5,15 @@ import { ProfilePage } from "@/pages/profile-page"
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Split-Pay/",
     element: <HomePage />,
   },
   {
-    path: "/main",
+    path: "/Split-Pay/main",
     element: <MainPage />
   },
   {
-  	path: "/profile",
+  	path: "/Split-Pay/profile",
    	element: <ProfilePage />
   }
 ])
