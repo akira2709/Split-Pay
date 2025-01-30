@@ -1,11 +1,11 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
-import { RouterProvider } from "react-router-dom"
-import type { Router } from "@remix-run/router/dist/router"
+import { DataRouter, RouterProvider } from "react-router-dom"
+
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools"
 import { RecoilRoot } from "recoil"
 
 type Props = {
-  router: Router
+  router: DataRouter
   client: QueryClient
 }
 
