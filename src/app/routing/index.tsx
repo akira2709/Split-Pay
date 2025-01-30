@@ -16,4 +16,4 @@ export const router = createBrowserRouter([
   	path: "/profile",
    	element: <ProfilePage />
   }
-], {basename: "/split-pay-gules.vercel.app"})
+], {basename: "/Split-Pay"})
