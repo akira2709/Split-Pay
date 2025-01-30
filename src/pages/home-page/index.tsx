@@ -11,7 +11,7 @@ export const HomePage = () => {
 			<div className={styles.star2}></div>
 			<p className={styles.content}> — Начни считать свои долги</p>
 			<div className={styles.beginBtnBox}>
-				<Button onClick={() => navigate("main")}>Начать</Button>
+				<Button onClick={() => navigate("/main")}>Начать</Button>
 			</div>
 		</div>
 	)
