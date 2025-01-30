@@ -5,15 +5,15 @@ import { ProfilePage } from "@/pages/profile-page"
 
 export const router = createBrowserRouter([
   {
-    path: "/Split-Pay/",
+    path: "/",
     element: <HomePage />,
   },
   {
-    path: "/Split-Pay/main",
+    path: "/main",
     element: <MainPage />
   },
   {
-  	path: "/Split-Pay/profile",
+  	path: "/profile",
    	element: <ProfilePage />
   }
-])
+], {basename: "/split-pay-gules.vercel.app"})
