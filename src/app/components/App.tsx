@@ -6,9 +6,6 @@ import "../global.css"
 import { useEffect } from "react"
 
 
-
-
-
 export const App = () => {
 	useEffect(() => {
 		const theme = localStorage.getItem("theme") ?? "light"
