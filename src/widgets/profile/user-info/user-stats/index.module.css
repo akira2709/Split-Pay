@@ -1,0 +1,13 @@
+.stats {
+	display: grid;
+	gap: 10px;
+	width: 100vw;
+	height: fit-content;
+	padding: 10px 9vw 20px;
+	background: transparent;
+	span {
+		display: flex;
+		justify-content: space-between;
+		gap: 10px;
+	}
+}

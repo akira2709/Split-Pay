@@ -1,0 +1,36 @@
+
+[data-theme="light"] {
+	.changeTheme {
+		background: var(--dark);
+	}
+	.icon {
+			background-image: url("dark-mode-icon.svg");
+	}
+}
+[data-theme="dark"] {
+	.changeTheme {
+		background: #fff;
+	}
+	.icon {
+			background-image: url("light-mode-icon.svg");
+	}
+}
+
+.changeTheme {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	aspect-ratio: 1;
+	border: none;
+	border-radius: 100%;
+	cursor: pointer;
+	user-select: none;
+}
+.icon {
+	width: 18px;
+	aspect-ratio: 1;
+	background: transparent;
+	background-position: center;
+	background-size: cover;
+}

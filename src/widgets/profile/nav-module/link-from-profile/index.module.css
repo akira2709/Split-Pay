@@ -1,0 +1,34 @@
+
+[data-theme="light"] {
+	.linkBack {
+		background: #fff;
+	}
+	.icon {
+		background-image: url("cross-black.svg");
+	}
+}
+[data-theme="dark"] {
+	.linkBack {
+		background: #2C2C2E;
+	}
+	.icon {
+		background-image: url("cross-white.svg");
+	}
+}
+.linkBack {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	aspect-ratio: 1;
+	border: none;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.icon {
+	width: 15px;
+	aspect-ratio: 1;
+	background: transparent;
+	background-position: center;
+	background-size: cover;
+}

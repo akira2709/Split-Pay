@@ -1,15 +1,17 @@
+import { useNavigate } from "react-router-dom"
 import styles from "./index.module.css"
-import { BeginButton } from "@/features/begin-button"
+import { Button } from "@/shared/ui/button"
 
 export const HomePage = () => {
+	const navigate = useNavigate()
 	return (
 		<div className={styles.homePage}>
 			<p className={styles.title}>Split Pay</p>
-			<img src="star1.svg" className={styles.star1} />
-			<img src="star2.svg" className={styles.star2} />
+			<div className={styles.star1}></div>
+			<div className={styles.star2}></div>
 			<p className={styles.content}> — Начни считать свои долги</p>
 			<div className={styles.beginBtnBox}>
-				<BeginButton />
+				<Button onClick={() => navigate("/main")}>Начать</Button>
 			</div>
 		</div>
 	)

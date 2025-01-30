@@ -1,0 +1,12 @@
+.navModule {
+	position: fixed;
+	top: 0;
+	display: flex;
+	gap: 16px;
+	right: 16px;
+	width: fit-content;
+	height: 40px;
+	margin-top: 15.5px;
+	justify-content: end;
+	background: transparent;
+}

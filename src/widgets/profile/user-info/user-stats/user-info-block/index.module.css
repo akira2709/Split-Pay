@@ -1,0 +1,41 @@
+
+[data-theme="light"] {
+	.userInfoBlock {
+		background: #fff;
+	}
+}
+[data-theme="dark"] {
+	.userInfoBlock {
+		background: var(--grey-300);
+	}
+}
+
+.userInfoBlock {
+	display: flex;
+	flex-direction: column;
+	user-select: none;
+	width: 100%;
+	min-height: 65px;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	row-gap: 4px;
+}
+.title {
+	background: transparent;
+	font-size: 14px;
+	color: var(--text-slate);
+	font-family: var(--stolzl);
+}
+.content {
+	background: transparent;
+	color: var(--text-color);
+	font-family: var(--stolzl);
+}
+.currency {
+	&::after {
+		content: ' ₽';
+		font-family: var(--unbounded);
+		font-size: 14px;
+	}
+}

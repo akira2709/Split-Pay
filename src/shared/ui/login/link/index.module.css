@@ -1,5 +1,5 @@
 .link {
-	font-family: "Stolzl";
+	font-family: var(--stolzl);
 	background: #e9e9e9;
 	display: flex;
 	align-items: center;

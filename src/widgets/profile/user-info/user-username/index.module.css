@@ -1,0 +1,12 @@
+.username {
+	display: flex;
+	font-family: var(--stolzl);
+	font-size: 20px;
+	flex-wrap: wrap;
+	max-width: 80vw;
+	justify-content: space-around;
+	margin-top: 8px;
+	height: fit-content;
+	column-gap: 15px;
+	user-select: none;
+}

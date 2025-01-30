@@ -1,0 +1,35 @@
+[data-theme="light"] {
+	.star1 {
+		background-image: url("star1.svg");
+	}
+}
+
+[data-theme="dark"] {
+	.star1 {
+		background-image: url("star1-dark.svg");
+	}
+}
+
+@media (width <= 500px) {
+	.star1 {
+		position: fixed;
+		left: -50vw;
+		top: -50vw;
+		width: 110vw;
+		aspect-ratio: 1;
+		z-index: 10;
+		background: transparent;
+		background-position: center;
+		background-size: cover;
+	}
+	.title {
+		position: fixed;
+		z-index: 20;
+		background: transparent;
+		font-family: var(--unbounded);
+		width: 10vw;
+		top: 8px;
+		left: 5vw;
+		font-size: 8vw;
+	}
+}
