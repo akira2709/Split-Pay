@@ -10,5 +10,5 @@ export default defineConfig({
 		}
 	},
   plugins: [react()],
-  base: '/split-pay-gules.vercel.app'
+  base: '/Split-Pay/'
 })
