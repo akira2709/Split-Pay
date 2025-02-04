@@ -3,7 +3,7 @@ import { useContext } from "react"
 import { OptionContext, Option, ContextType } from "@/widgets/main/main-options/context"
 import { motion, AnimatePresence } from "motion/react"
 
-interface Props {
+type Props = {
 	title: string
 	AddComponent: () => JSX.Element
 	OpenComponent: () => JSX.Element
