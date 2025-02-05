@@ -1,6 +1,6 @@
 import styles from "./index.module.css"
 import { useContext } from "react"
-import { OptionContext, Option, ContextType } from "@/widgets/main/main-options/context"
+import { OptionContext, Option, ContextType } from "../context.js"
 import { motion, AnimatePresence } from "motion/react"
 
 type Props = {

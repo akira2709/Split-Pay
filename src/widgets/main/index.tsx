@@ -1,6 +1,6 @@
-import { OptionComponent } from "@/shared/ui/option-component"
+import { OptionComponent } from "./option-component"
 import styles from "./index.module.css"
-import { AddDebt, AddDebtor, AddSplit, OpenDebtors, OpenDebts, OpenSplits } from "./options"
+import { AddDebt, AddDebtor, AddSplit, OpenDebtors, OpenDebts, OpenSplits } from "@/features/options"
 import { useState } from "react"
 import { type Option, OptionContext } from "./context"
 
