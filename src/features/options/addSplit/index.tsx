@@ -14,8 +14,8 @@ export const AddSplit = () => {
   return (
   	<>
    		<AddContainer onClick={handleClick}>
-				<Input changeValue={setPlace} title={"Где"} placeholder={"Напиши название места"} />
-				<Input changeValue={setName} title={"Имя"} placeholder={"Напиши имя того, кто платил"} />
+				<Input value={place} changeValue={setPlace} title={"Где"} placeholder={"Напиши название места"} />
+				<Input value={name} changeValue={setName} title={"Имя"} placeholder={"Напиши имя того, кто платил"} />
      	</AddContainer>
    </>
   )
