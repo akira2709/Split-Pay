@@ -6,7 +6,7 @@
 	--grey-100: #e6e8e9;
 	--grey-linear: linear-gradient(#C4C4C4, #5E5E5E);
 	--text-slate: #ADADAD;
-	--stolzl: "Stolzl";
+	--stolzl: "Stolzl", "nunito";
 	--unbounded: "Unbounded";
 	--pink: #EA53C2;
 	--green: #53EA63;
@@ -45,6 +45,15 @@
   font-weight: 200 900;
   font-display: swap;
   src: url("/public/Stolzl/stolzl_regular.woff") format('woff2');
+}
+
+@font-face {
+	font-family: "nunito";
+ 	font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("/public/nunito/Nunito-SemiBold.ttf") format('woff2');
+  unicode-range: U+20BD;
 }
 
 .required-field::after {

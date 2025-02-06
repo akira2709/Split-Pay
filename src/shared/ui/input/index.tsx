@@ -1,9 +1,11 @@
 import { ChangeEvent, memo } from "react"
 import styles from "./index.module.css"
+import clsx from "clsx"
 
-interface Props {
-	changeValue: (value: string) => void
+type Props = {
+	title: string
 	placeholder?: string
+	changeValue: (value: string) => void
 }
 
 export const Input = memo((props: Props) => {
@@ -11,7 +13,10 @@ export const Input = memo((props: Props) => {
 		props.changeValue(event.target.value)
 	}
 	return (
-		<input type="text" className={styles.input} placeholder={props.placeholder}
-		onChange={handleChange} />
+		<div className={ styles.inputContainer }>
+			<p className={ clsx(styles.field, "required-field") }>{ props.title }</p>
+			<input type={"text"} className={styles.input} placeholder={props.placeholder}
+			onChange={handleChange} />
+		</div>
 	)
 })

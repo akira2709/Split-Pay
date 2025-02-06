@@ -15,10 +15,21 @@
 	}
 }
 
+.inputContainer {
+		background: transparent;
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		font-family: var(--stolzl);
+	}
+
 .input {
 	border: none;
 	border-radius: 10px;
 	outline: none;
 	padding: 10px;
 	width: 100%;
+	&::placeholder {
+		font-size: 14px;
+	}
 }

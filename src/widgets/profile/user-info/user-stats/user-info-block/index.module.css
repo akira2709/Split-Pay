@@ -32,10 +32,3 @@
 	color: var(--text-color);
 	font-family: var(--stolzl);
 }
-.currency {
-	&::after {
-		content: ' ₽';
-		font-family: var(--unbounded);
-		font-size: 14px;
-	}
-}

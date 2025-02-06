@@ -15,7 +15,7 @@ export const UserStats = () => {
 				<UserInfoBlock title={"Всего сплитов:"} content={ stats.splits } />
 				<UserInfoBlock title={"Всего долгов:"} content={ stats.debts } />
 			</span>
-			<UserInfoBlock title={"Всего переведено:"} content={stats.shifts} currency={true} />
+			<UserInfoBlock title={"Всего переведено:"} content={stats.shifts} currency={"₽"} />
 		</div>
 	)
 }
