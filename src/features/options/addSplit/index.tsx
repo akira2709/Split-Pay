@@ -1,8 +1,6 @@
-import styles from "./index.module.css";
 import { Input } from "@/shared/ui/input";
-import clsx from "clsx";
+import { AddContainer } from "@/shared/ui/add-container";
 import { useState } from "react";
-import { AddButton } from "@/shared/ui/add-button";
 
 
 export const AddSplit = () => {
@@ -15,17 +13,10 @@ export const AddSplit = () => {
 
   return (
   	<>
-			<div className={ styles.splitContainer }>
-				<div className={ styles.inputContainer }>
-					<p className={ clsx(styles.field, "required-field") }>Где</p>
-					<Input changeValue={setPlace}/>
-				</div>
-				<div className={ styles.inputContainer }>
-					<p className={ clsx(styles.field, "required-field") }>Имя</p>
-					<Input changeValue={setName}/>
-				</div>
-	   	</div>
-			<AddButton onClick={handleClick} />
+   		<AddContainer onClick={handleClick}>
+				<Input changeValue={setPlace} title={"Где"} placeholder={"Напиши название места"} />
+				<Input changeValue={setName} title={"Имя"} placeholder={"Напиши имя того, кто платил"} />
+     	</AddContainer>
    </>
   )
 }
