@@ -29,7 +29,6 @@
 	outline: none;
 	padding: 10px;
 	width: 100%;
-	&::placeholder {
-		font-size: 14px;
-	}
+	font-family: var(--stolzl);
+	font-size: 14px;
 }
