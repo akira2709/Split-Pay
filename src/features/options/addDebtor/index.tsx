@@ -16,7 +16,7 @@ export const AddDebtor = () => {
   	<>
    		<AddContainer onClick={handleClick}>
 				<Input value={debtorName} changeValue={setDebtorName} title={"Кто"} placeholder={"Напиши имя и фамилию"} />
-				<Input value={deadline} changeValue={setDeadline} title={"Край сдачи"} placeholder={"00 / 00 / 0000"} />
+				<Input value={deadline} changeValue={setDeadline} type={"date"} title={"Край сдачи"} placeholder={"00 / 00 / 0000"} />
 				<Input value={total} changeValue={setTotal} type={"number"} title={"Сумма, ₽"} placeholder={"Напиши сумму долга"} />
      	</AddContainer>
    </>

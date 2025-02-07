@@ -19,6 +19,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-google-login": "^5.2.2",
+    "react-imask": "^7.6.1",
     "react-router-dom": "^7.1.0",
     "react-toastify": "^10.0.6",
     "recoil": "^0.7.7",

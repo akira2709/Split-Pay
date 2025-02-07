@@ -30,7 +30,5 @@
 	padding: 10px;
 	width: 100%;
 	font-family: var(--stolzl);
-	&::placeholder {
-		font-size: 14px;
-	}
+	font-size: 14px;
 }
