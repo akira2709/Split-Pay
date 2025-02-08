@@ -2,6 +2,9 @@
 	.delete, .open {
 		background-color: var(--extra-light);
 	}
+	.open {
+		background-image: url("/eye-black.svg");
+	}
 	.split:nth-child(odd) {
 		background: white;
 	}
@@ -9,6 +12,9 @@
 [data-theme="dark"] {
 	.delete, .open {
 		background-color: var(--grey-400);
+	}
+	.open {
+		background-image: url("/eye-white.svg");
 	}
 	.split:nth-child(odd) {
 		background: var(--grey-300);
@@ -53,7 +59,6 @@
 }
 .open {
 	background-size: 18px;
-	background-image: url("/eye.svg");
 }
 
 .options {
