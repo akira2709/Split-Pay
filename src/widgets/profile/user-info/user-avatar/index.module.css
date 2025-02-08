@@ -3,7 +3,6 @@
 	width: 200px;
 	border: none;
 	border-radius: 100%;
-	background: transparent;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -11,6 +10,5 @@
 	img {
 		height: 100%;
 		aspect-ratio: 1;
-		background: transparent;
 	}
 }

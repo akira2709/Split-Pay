@@ -27,8 +27,8 @@ export const Input = memo((props: Props) => {
     },
     yyyy: {
       mask: IMask.MaskedRange,
-      from: 1900,
-      to: 2300,
+      from: 2025,
+      to: 2500,
     },
 	}
 

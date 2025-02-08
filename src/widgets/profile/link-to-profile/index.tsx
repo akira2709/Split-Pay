@@ -5,6 +5,8 @@ export const LinkToProfile = () => {
 	const navigate = useNavigate()
 	const linkIcon = "avatar.jpg"
 	return (
-		<img src={linkIcon} className={styles.linkIn} onClick={() => navigate("/profile")}/>
+		<button className={ styles.linkIn } onClick={() => navigate("/profile")}>
+			<img src={linkIcon} className={styles.linkIn}/>
+		</button>
 	)
 }

@@ -26,6 +26,7 @@ body {
 	display: grid;
 	min-height: 100vh;
 	padding: 5vw;
+	background: var(--bg-color);
 }
 @media (width <= 500px) {
 	.star1 {

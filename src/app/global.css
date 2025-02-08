@@ -1,6 +1,8 @@
 :root {
 	--light: #EFE5E5;
+	--extra-light: #EEEEEE;
 	--dark: #131315;
+	--grey-400: #2C2C2E;
 	--grey-300: #323237;
 	--grey-200: #4D4D51;
 	--grey-100: #e6e8e9;
@@ -26,7 +28,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	color: var(--text-color);
-	background: var(--bg-color);
 	transition: background-color .1s cubic-bezier(.99,.01,.32,.54), color .1s cubic-bezier(.01,.95,.68,.86);
 }
 
