@@ -10,6 +10,15 @@
 	}
 }
 
+.layout {
+	background: var(--bg-color);
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1000;
+}
 @media (width <= 500px) {
 	.star1 {
 		position: fixed;

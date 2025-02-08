@@ -10,7 +10,6 @@
 	cursor: pointer;
 	p {
 		user-select: none;
-		background: transparent;
 		width: fit-content;
 		margin-left: 3vw;
 		font-size: 5vw;

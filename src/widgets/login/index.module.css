@@ -6,7 +6,6 @@
 	width: 100vw;
 	height: 100vh;
 	z-index: 50;
-	background: transparent;
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
@@ -29,11 +28,9 @@
 .title {
 	font-family: "Stolzl";
 	font-size: 8vw;
-	background: transparent;
 	margin-bottom: 2vh;
 }
 .linksBox {
-	background: transparent;
 	display: grid;
 	width: 100%;
 	flex: 1;

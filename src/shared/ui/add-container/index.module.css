@@ -24,7 +24,6 @@
 	border-radius: 22px;
 	width: 100%;
 	padding: 12px;
-	background: transparent;
 	color: var(--text-color);
 	font-family: "Stolzl";
 	&::after {
@@ -38,9 +37,6 @@
 		border-radius: 22px;
 		opacity: 0.7;
 		z-index: -2;
-	}
-	p {
-		background: transparent;
 	}
 }
 .addButton {
