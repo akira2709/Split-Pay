@@ -7,13 +7,13 @@
 		opacity: 0.7;
 	}
 	.addImg {
-			background-image: url("plus-black.svg");
+			background-image: url("/plus-black.svg");
 	}
 	.closeBtn {
-		background-image: url("arrow-right-black.svg");
+		background-image: url("/arrow-right-black.svg");
 	}
 	.openBtn {
-			background-image: url("arrow-down-black.svg");
+			background-image: url("/arrow-down-black.svg");
 	}
 }
 [data-theme="dark"] {
@@ -25,13 +25,13 @@
 		opacity: 0.4;
 	}
 	.addImg {
-			background-image: url("plus-white.svg");
+			background-image: url("/plus-white.svg");
 	}
 	.closeBtn {
-		background-image: url("arrow-right-white.svg");
+		background-image: url("/arrow-right-white.svg");
 	}
 	.openBtn {
-			background-image: url("arrow-down-white.svg");
+			background-image: url("/arrow-down-white.svg");
 	}
 }
 
