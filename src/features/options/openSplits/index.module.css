@@ -49,11 +49,11 @@
 
 .delete {
 	background-size: 12px;
-	background-image: url("delete.svg");
+	background-image: url("/delete.svg");
 }
 .open {
 	background-size: 18px;
-	background-image: url("eye.svg");
+	background-image: url("/eye.svg");
 }
 
 .options {

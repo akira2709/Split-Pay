@@ -4,7 +4,7 @@
 		background: var(--dark);
 	}
 	.icon {
-			background-image: url("dark-mode-icon.svg");
+			background-image: url("/dark-mode-icon.svg");
 	}
 }
 [data-theme="dark"] {
@@ -12,7 +12,7 @@
 		background: #fff;
 	}
 	.icon {
-			background-image: url("light-mode-icon.svg");
+			background-image: url("/light-mode-icon.svg");
 	}
 }
 

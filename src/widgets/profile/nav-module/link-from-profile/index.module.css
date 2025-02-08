@@ -4,7 +4,7 @@
 		background: #fff;
 	}
 	.icon {
-		background-image: url("cross-black.svg");
+		background-image: url("/cross-black.svg");
 	}
 }
 [data-theme="dark"] {
@@ -12,7 +12,7 @@
 		background: #2C2C2E;
 	}
 	.icon {
-		background-image: url("cross-white.svg");
+		background-image: url("/cross-white.svg");
 	}
 }
 .linkBack {
